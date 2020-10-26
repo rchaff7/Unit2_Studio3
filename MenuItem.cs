@@ -9,10 +9,10 @@ namespace Studio3
     {
         public double Price { get; }
         public string Description { get; }
-        public char Category { get; }  // A=appetizer, M=Main, D=dessert
+        public string Category { get; }  // appetizer, main, dessert
         public bool NewItem { get; private set; }
 
-        public MenuItem(double price, string description, char category)
+        public MenuItem(double price, string description, string category)
         {
             Price = price;
             Description = description;
